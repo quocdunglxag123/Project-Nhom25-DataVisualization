@@ -1,19 +1,19 @@
 # Đề tài: visualzation các chuyến bay bị tai nạn
 - Nguồn: https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908
 - Các Cột:  
- + Date: Ngày xảy ra tai nạn, theo định dạng - ngày 1 tháng 1 năm 2001
- + Time: Giờ địa phương, 24 giờ.
- + Location: Vị trí xảy ra tai nạn
- + Operator: Hãng hàng không hoặc người điều hành máy bay
- + Flight: Số hiệu chuyến bay 
- + Route: Toàn bộ hoặc một phần tuyến đường bay trước khi xảy ra tai nạn
- + Type: Loại máy bay
- + Registration: ICAO đăng ký máy bay
- + cn/In: Cấu tạo hoặc số sê-ri / Dòng hoặc số thân máy bay
- + Aboard: Tổng số người trên máy bay(hành khách / phi hành đoàn)
- + Fatalities: Tổng số người chết trên máy bay(hành khách / phi hành đoàn)
- + Ground: Tổng số bị chết trên mặt đất
- + Summary: Mô tả ngắn gọn về vụ tai nạn và nguyên nhân nếu biết
+ Date: Ngày xảy ra tai nạn, theo định dạng - ngày 1 tháng 1 năm 2001
+ Time: Giờ địa phương, 24 giờ.
+ Location: Vị trí xảy ra tai nạn
+ Operator: Hãng hàng không hoặc người điều hành máy bay
+ Flight: Số hiệu chuyến bay 
+ Route: Toàn bộ hoặc một phần tuyến đường bay trước khi xảy ra tai nạn
+ Type: Loại máy bay
+ Registration: ICAO đăng ký máy bay
+ cn/In: Cấu tạo hoặc số sê-ri / Dòng hoặc số thân máy bay
+ Aboard: Tổng số người trên máy bay(hành khách / phi hành đoàn)
+ Fatalities: Tổng số người chết trên máy bay(hành khách / phi hành đoàn)
+ Ground: Tổng số bị chết trên mặt đất
+ Summary: Mô tả ngắn gọn về vụ tai nạn và nguyên nhân nếu biết
 ## Cách tìm hiểu đề tài:
 Tìm hiểu và phân tích tổng quan về tập dữ liệu
 1. Tổng tai nạn chuyến bay của tập dữ liệu?
