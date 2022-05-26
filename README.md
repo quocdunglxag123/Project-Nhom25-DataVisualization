@@ -42,7 +42,7 @@
 
 
 # Các Link:
-- youtube phân tích đề tài:
+- youtube phân tích đề tài:https://youtu.be/ePQITaguD3o
 - Link Web:http://project-nhom25.s3-website-us-east-1.amazonaws.com/
 - Link dashboard superset project: http://44.198.34.14:8088/superset/dashboard/43/?native_filters_key=HbuuZXQ0A5VJ-oFBrFUoKaicseyZxGaQc_m4RiZdGPybV8OqoRbAlmahi3asNLtB
 - Link Word Báo Cáo: https://docs.google.com/document/d/1f2HuZDzclBZsv9rROPPxWG9hUqtfyE8EBUuJynY7cu8/edit?usp=sharing&fbclid=IwAR03YE7Q2HyT8z3Ap04PAUBadMLgP2AvF2hlQc1IiYHJS652gG4IT-oPR4Q
