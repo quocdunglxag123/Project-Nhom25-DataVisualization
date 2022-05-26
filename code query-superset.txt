@@ -1,0 +1,64 @@
+select * from Airplane3
+where Operator in ({{"'"+"','".join (filter_values('Operator'))+"'"}})
+or Type in  ({{"'"+"','".join (filter_values('Type'))+"'"}})
+
+
+Jinja-CustomURLParameters-AirCrash-Die-Live
+--http://3.82.29.210:8088/superset/sqllab/?Operator=Deutsche%20Lufthansa 
+SELECT count(Operator) as AirCrash, (sum(Fatalities)+sum(Ground))as Die,(sum(Aboard)-(sum(Fatalities)+sum(Ground)))as live
+FROM Airplane3
+WHERE Operator = '{{ url_param('Operator') }}'
+
+
+Jinja-CustomURL-*
+Select * from Airplane3
+WHERE Operator = '{{ url_param('Operator') }}'
+
+Current Username
+SELECT '{{ current_username() }}',{{ current_user_id() }}
+
+Jinja-YearFilter
+select * from Airplane3 where year(Date)>'{{ yearstart }}'and year(Date)< '{{ yearend }}'
+
+
+
+Type-SLAircrash
+SELECT * FROM 
+  (SELECT Type, (count(Type)) AS SLTAircrash FROM Airplane3 where Operator!= '' GROUP BY Type) a
+GROUP BY a.SLTAircrash,a.Type;
+
+
+Hãng- Tổng Số Lượng Người Chết
+SELECT * FROM 
+  (SELECT Operator,(sum(Fatalities)+sum(Ground)) AS Die FROM Airplane3 GROUP BY Operator) a
+GROUP BY a.Die,a.Operator;
+
+
+
+Hãng-Type-SLAircrash(Type)
+SELECT * FROM 
+  (SELECT Operator, Type, (count(Type)) AS SLAircrash FROM Airplane3 where Operator!= '' GROUP BY Operator,Type) a
+GROUP BY a.SLAircrash,a.Operator,a.Type;
+
+
+
+Số Tai Nạn Biết Lý Do
+select count(Summary) as SoLuongTaiNanBietLyDo from Airplane3 where Summary !
+
+
+Hãng và Số Lượng Người Chết
+SELECT Operator, SUM(Fatalities) as SoLuongDie FROM  Airplane3 where Operator != '' GROUP BY  Operator ;
+
+
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+
+
+Military - U.S. Air Force
+Deutsche Lufthansa
+Air France
+Military - U.s. Army Air Forces
+US Aerial Mail Service
+
+SUM(Aboard)-(SUM(Fatalities) + SUM(Ground))
