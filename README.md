@@ -21,10 +21,10 @@
 3. So sánh tỷ lệ tai nạn ở các hãng
 4. So sánh tỷ lệ tai nạn ở các loại máy bay
 5. So sánh số lượng giữa các hãng xảy ra tai nạn
-##Tìm hiểu chuyên sâu về tập dữ liệu
+## Tìm hiểu chuyên sâu về tập dữ liệu
 6. Tìm hiểu các giai đoạn xảy ra tai nạn máy bay
 7. số người sống và chết ở các giai đoạn của câu 6
-##Phân tích chuyên sâu về các hãng xảy ra tai nạn nhiều nhất
+## Phân tích chuyên sâu về các hãng xảy ra tai nạn nhiều nhất
 8. thống kê tổng số người sống chết và số lượng tai nạn ở 5 hãng xảy ra tai nạn nhiều nhất
 9. các giai đoạn xảy ra tai nạn ở 5 hãng của câu 8
 10. thống kê tổng số người sống chết của hãng top 1
